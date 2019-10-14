@@ -1,0 +1,33 @@
+---- SetGPIO_Output Matches (32 in 7 files) ----
+LPC1788_DMCS.build_log.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB\LIB\include) line 109 : Motion\Motion.c(792): warning:  #940-D: missing return statement at end of non-void function "SetGPIO_Output"
+LPC1788_DMCS.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB\LIB\include) line 575 : <BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetGPIO_Output
+LPC1788_DMCS.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB\LIB\include) line 1046 : <BR><BR>[Stack]<UL><LI>Max Depth = 200<LI>Call Chain = I_GPIO_Init &rArr; Main_GPIO_Init &rArr; SetGPIO_Output &rArr; SendCmd &rArr; AddMsgByte &rArr; CRC16
+LPC1788_DMCS.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB\LIB\include) line 1724 : <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetGPIO_Output
+LPC1788_DMCS.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB\LIB\include) line 1770 : <P><STRONG><a name="[f4]"></a>SetGPIO_Output</STRONG> (Thumb, 586 bytes, Stack size 104 bytes, motion.o(i.SetGPIO_Output))
+LPC1788_DMCS.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB\LIB\include) line 1771 : <BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = SetGPIO_Output &rArr; SendCmd &rArr; AddMsgByte &rArr; CRC16
+LPC1788_DMCS.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB\LIB\include) line 1801 : <BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetGPIO_Output
+LPC1788_DMCS.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB\LIB\include) line 3312 : <BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = Main_GPIO_Init &rArr; SetGPIO_Output &rArr; SendCmd &rArr; AddMsgByte &rArr; CRC16
+LPC1788_DMCS.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB\LIB\include) line 3318 : <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetGPIO_Output
+LPC1788_DMCS_TESTLIB.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB) line 659 : <LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetGPIO_Output
+LPC1788_DMCS_TESTLIB.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB) line 1105 : <BR><BR>[Stack]<UL><LI>Max Depth = 200<LI>Call Chain = I_GPIO_Init &rArr; Main_GPIO_Init &rArr; SetGPIO_Output &rArr; SendCmd &rArr; AddMsgByte &rArr; CRC16
+LPC1788_DMCS_TESTLIB.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB) line 1781 : <LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetGPIO_Output
+LPC1788_DMCS_TESTLIB.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB) line 1784 : <P><STRONG><a name="[102]"></a>SetGPIO_Output</STRONG> (Thumb, 586 bytes, Stack size 104 bytes, motion.o(i.SetGPIO_Output))
+LPC1788_DMCS_TESTLIB.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB) line 1785 : <BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = SetGPIO_Output &rArr; SendCmd &rArr; AddMsgByte &rArr; CRC16
+LPC1788_DMCS_TESTLIB.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB) line 1817 : <LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetGPIO_Output
+LPC1788_DMCS_TESTLIB.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB) line 2977 : <BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = Main_GPIO_Init &rArr; SetGPIO_Output &rArr; SendCmd &rArr; AddMsgByte &rArr; CRC16
+LPC1788_DMCS_TESTLIB.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB) line 2983 : <LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetGPIO_Output
+LPC1788_TXKJ.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB\LIB\include) line 739 : <BR>[Called By]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetGPIO_Output
+LPC1788_TXKJ.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB\LIB\include) line 766 : <BR>[Called By]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetGPIO_Output
+LPC1788_TXKJ.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB\LIB\include) line 1705 : <LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetGPIO_Output
+LPC1788_TXKJ.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB\LIB\include) line 1718 : <P><STRONG><a name="[10c]"></a>SetGPIO_Output</STRONG> (Thumb, 206 bytes, Stack size 104 bytes, motion.o(i.SetGPIO_Output))
+LPC1788_TXKJ.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB\LIB\include) line 1719 : <BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = SetGPIO_Output &rArr; SendCmd &rArr; AddMsgByte &rArr; CRC16
+LPC1788_TXKJ.htm (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB\LIB\include) line 2392 : <LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetGPIO_Output
+main.txt (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB) line 273 : ;;;208    		SetGPIO_Output(i,0); 
+main.txt (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB) line 276 : 000176  f7fffffe          BL       SetGPIO_Output
+main.txt (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB) line 277 : ;;;209    		SetGPIO_Output(i,1); 
+main.txt (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB) line 280 : 00017e  f7fffffe          BL       SetGPIO_Output
+Motion.h (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB\LIB) line 52 : long SetGPIO_Output(unsigned char BitIndex, unsigned char BitValue);  //设置输出
+Motion.h (D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB\LIB\include) line 64 : long SetGPIO_Output(unsigned char BitIndex, unsigned char BitValue);  //设置输出
+---- SetGPIO_Output Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+D:\CNC_Work\手柄控制器\DCMS_CNC\LPC1788_DMCS_TESTLIB\LPC1788_DMCS_TESTLIB.build_log.htm : File could not be opened.

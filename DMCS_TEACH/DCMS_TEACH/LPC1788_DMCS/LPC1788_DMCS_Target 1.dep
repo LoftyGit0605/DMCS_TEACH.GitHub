@@ -1,0 +1,134 @@
+Dependencies for Project 'LPC1788_DMCS', Target 'Target 1': (DO NOT MODIFY !)
+F (.\StartUp\startup_LPC177x_8x.s)(0x5D4D4BBC)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC177x_8x-o .\list\startup_lpc177x_8x.o --depend .\list\startup_lpc177x_8x.d)
+F (.\StartUp\system_LPC177x_8x.c)(0x5D43AC60)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\LIB -I.\APP -I.\StartUp -I.\LIB\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC177x_8x-o .\list\system_lpc177x_8x.o --omf_browse .\list\system_lpc177x_8x.crf --depend .\list\system_lpc177x_8x.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (StartUp\LPC177x_8x.h)(0x53AC5316)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (StartUp\system_LPC177x_8x.h)(0x50170714)
+F (.\LIB\LPC1788_DMCS.lib)(0x5ACEAD96)()
+F (.\APP\main.c)(0x5D8CB7B4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\LIB -I.\APP -I.\StartUp -I.\LIB\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC177x_8x-o .\list\main.o --omf_browse .\list\main.crf --depend .\list\main.d)
+I (.\LIB\Base.h)(0x5D661FF2)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\absacc.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (.\StartUp\system_LPC177x_8x.h)(0x50170714)
+I (.\LIB\GlobalDefine.h)(0x5D9C5530)
+I (.\LIB\UpgradeStm32.h)(0x5BC5D1D2)
+I (.\LIB\Motion.h)(0x5D68CAF2)
+I (.\StartUp\LPC177x_8x.h)(0x53AC5316)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (.\LIB\ModbusReg.h)(0x5BC5D3F4)
+I (.\LIB\MyModbus.h)(0x5C1242C6)
+I (.\LIB\HW_Init.h)(0x5BC5D132)
+I (.\LIB\I_SYSTICK.h)(0x5C17A14C)
+I (.\LIB\lpc177x_8x_systick.h)(0x50170714)
+I (.\LIB\lpc_types.h)(0x50170714)
+I (.\LIB\I_Timer.h)(0x5BC5D1F6)
+I (.\LIB\I_USB.h)(0x5BC5D260)
+I (.\LIB\Crc.h)(0x5C3FEA64)
+I (.\LIB\I_GPIO.h)(0x5BC5D15A)
+I (.\LIB\I_Uart.h)(0x5BC5CEEE)
+I (.\LIB\ff.h)(0x5BC1D0D2)
+I (.\LIB\integer.h)(0x55EA74C2)
+I (.\LIB\ffconf.h)(0x56F49F86)
+I (.\LIB\Public.h)(0x5D8F3F58)
+I (.\LIB\UserCrc.h)(0x5C98D928)
+I (.\LIB\UserFunc.h)(0x5D81E0EC)
+F (.\APP\Public.c)(0x5D837830)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\LIB -I.\APP -I.\StartUp -I.\LIB\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC177x_8x-o .\list\public.o --omf_browse .\list\public.crf --depend .\list\public.d)
+I (.\LIB\Base.h)(0x5D661FF2)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\absacc.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (.\StartUp\system_LPC177x_8x.h)(0x50170714)
+I (.\LIB\GlobalDefine.h)(0x5D9C5530)
+I (.\LIB\UpgradeStm32.h)(0x5BC5D1D2)
+I (.\LIB\Motion.h)(0x5D68CAF2)
+I (.\StartUp\LPC177x_8x.h)(0x53AC5316)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (.\LIB\ModbusReg.h)(0x5BC5D3F4)
+I (.\LIB\MyModbus.h)(0x5C1242C6)
+I (.\LIB\HW_Init.h)(0x5BC5D132)
+I (.\LIB\I_SYSTICK.h)(0x5C17A14C)
+I (.\LIB\lpc177x_8x_systick.h)(0x50170714)
+I (.\LIB\lpc_types.h)(0x50170714)
+I (.\LIB\I_Timer.h)(0x5BC5D1F6)
+I (.\LIB\I_USB.h)(0x5BC5D260)
+I (.\LIB\Crc.h)(0x5C3FEA64)
+I (.\LIB\I_GPIO.h)(0x5BC5D15A)
+I (.\LIB\I_Uart.h)(0x5BC5CEEE)
+I (.\LIB\ff.h)(0x5BC1D0D2)
+I (.\LIB\integer.h)(0x55EA74C2)
+I (.\LIB\ffconf.h)(0x56F49F86)
+I (.\LIB\Public.h)(0x5D8F3F58)
+I (.\LIB\UserCrc.h)(0x5C98D928)
+I (.\LIB\UserFunc.h)(0x5D81E0EC)
+F (.\APP\UserFunc.c)(0x5D8F3FA4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\LIB -I.\APP -I.\StartUp -I.\LIB\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC177x_8x-o .\list\userfunc.o --omf_browse .\list\userfunc.crf --depend .\list\userfunc.d)
+I (.\LIB\Base.h)(0x5D661FF2)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\absacc.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (.\StartUp\system_LPC177x_8x.h)(0x50170714)
+I (.\LIB\GlobalDefine.h)(0x5D9C5530)
+I (.\LIB\UpgradeStm32.h)(0x5BC5D1D2)
+I (.\LIB\Motion.h)(0x5D68CAF2)
+I (.\StartUp\LPC177x_8x.h)(0x53AC5316)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (.\LIB\ModbusReg.h)(0x5BC5D3F4)
+I (.\LIB\MyModbus.h)(0x5C1242C6)
+I (.\LIB\HW_Init.h)(0x5BC5D132)
+I (.\LIB\I_SYSTICK.h)(0x5C17A14C)
+I (.\LIB\lpc177x_8x_systick.h)(0x50170714)
+I (.\LIB\lpc_types.h)(0x50170714)
+I (.\LIB\I_Timer.h)(0x5BC5D1F6)
+I (.\LIB\I_USB.h)(0x5BC5D260)
+I (.\LIB\Crc.h)(0x5C3FEA64)
+I (.\LIB\I_GPIO.h)(0x5BC5D15A)
+I (.\LIB\I_Uart.h)(0x5BC5CEEE)
+I (.\LIB\ff.h)(0x5BC1D0D2)
+I (.\LIB\integer.h)(0x55EA74C2)
+I (.\LIB\ffconf.h)(0x56F49F86)
+I (.\LIB\Public.h)(0x5D8F3F58)
+I (.\LIB\UserCrc.h)(0x5C98D928)
+I (.\LIB\UserFunc.h)(0x5D81E0EC)
+F (.\APP\UserCrc.c)(0x5CB6CEB0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\LIB -I.\APP -I.\StartUp -I.\LIB\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC177x_8x-o .\list\usercrc.o --omf_browse .\list\usercrc.crf --depend .\list\usercrc.d)
+I (.\LIB\Base.h)(0x5D661FF2)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\absacc.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (.\StartUp\system_LPC177x_8x.h)(0x50170714)
+I (.\LIB\GlobalDefine.h)(0x5D9C5530)
+I (.\LIB\UpgradeStm32.h)(0x5BC5D1D2)
+I (.\LIB\Motion.h)(0x5D68CAF2)
+I (.\StartUp\LPC177x_8x.h)(0x53AC5316)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (.\LIB\ModbusReg.h)(0x5BC5D3F4)
+I (.\LIB\MyModbus.h)(0x5C1242C6)
+I (.\LIB\HW_Init.h)(0x5BC5D132)
+I (.\LIB\I_SYSTICK.h)(0x5C17A14C)
+I (.\LIB\lpc177x_8x_systick.h)(0x50170714)
+I (.\LIB\lpc_types.h)(0x50170714)
+I (.\LIB\I_Timer.h)(0x5BC5D1F6)
+I (.\LIB\I_USB.h)(0x5BC5D260)
+I (.\LIB\Crc.h)(0x5C3FEA64)
+I (.\LIB\I_GPIO.h)(0x5BC5D15A)
+I (.\LIB\I_Uart.h)(0x5BC5CEEE)
+I (.\LIB\ff.h)(0x5BC1D0D2)
+I (.\LIB\integer.h)(0x55EA74C2)
+I (.\LIB\ffconf.h)(0x56F49F86)
+I (.\LIB\Public.h)(0x5D8F3F58)
+I (.\LIB\UserCrc.h)(0x5C98D928)
+I (.\LIB\UserFunc.h)(0x5D81E0EC)

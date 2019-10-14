@@ -1,0 +1,105 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\CNC_Work\项目资料\通用教导版\DCMS_TEACH\LPC1788_DMCS\LPC1788_DMCS.uvproj
+Project File Date:  08/09/2019
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+compiling Public.c...
+compiling UserFunc.c...
+APP\UserFunc.c(585): warning:  #550-D: variable "ftemp" was set but never used
+        float ftemp;
+APP\UserFunc.c(1427): warning:  #550-D: variable "result" was set but never used
+        long result;
+APP\UserFunc.c(1464): warning:  #550-D: variable "stPos" was set but never used
+        float stPos[5],tempPos[5];
+APP\UserFunc.c(1464): warning:  #177-D: variable "tempPos" was declared but never referenced
+        float stPos[5],tempPos[5];
+APP\UserFunc.c(1467): warning:  #550-D: variable "result" was set but never used
+        long i,result;
+APP\UserFunc.c: 5 warnings, 0 errors
+compiling UserCrc.c...
+linking...
+Program Size: Code=72482 RO-data=176654 RW-data=2644 ZI-data=215420  
+After Build - User command #1: fromelf.exe --bin -o "D:\CNC_Work\项目资料\通用教导版\DCMS_TEACH\LPC1788_DMCS\List\LPC1788_DMCS.bin" "D:\CNC_Work\项目资料\通用教导版\DCMS_TEACH\LPC1788_DMCS\List\LPC1788_DMCS.axf"
+".\List\LPC1788_DMCS.axf" - 0 Error(s), 5 Warning(s).
+Load "D:\\CNC_Work\\项目资料\\通用教导版\\DCMS_TEACH\\LPC1788_DMCS\\List\\LPC1788_DMCS.axf" 
+Set JLink Project File to "D:\CNC_Work\项目资料\通用教导版\DCMS_TEACH\LPC1788_DMCS\JLinkSettings.ini"
+* JLink Info: Device "LPC1778" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.90 , compiled Jul 28 2014 10:35:20
+Firmware: J-Link V9 compiled Jun  2 2222 22:22:22
+Hardware: V9.40
+S/N : 59401308 
+Feature(s) : GDB, RDI, FlashBP, FlashDL, JFlash, RDDI 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: LPC1778
+VTarget = 3.301V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+</pre>
+</body>
+</html>
+otalLine;        // param total line number init value
+APP\UserFunc.c(63): error:  #136: struct "_SYSPARAM_" has no field "OutputNum"
+        DReg[F_OUTPUTNUM] = SP.OutputNum;        // output/input port number
+APP\UserFunc.c(64): error:  #136: struct "_SYSPARAM_" has no field "OutputLevel"
+        DReg[F_OUTPUTLEVEL] = SP.OutputLevel;    // output/input port level
+APP\UserFunc.c(78): error:  #136: struct "_SYSPARAM_" has no field "InpSpeed"
+        DReg[F_INPSPEED] = SP.InpSpeed;          // defalut interpolation speed for making
+APP\UserFunc.c(118): error:  #136: struct "_SYSPARAM_" has no field "MakeData1"
+                memcpy(&DReg[F_MAKEDATA100+2*i],&SP.MakeData1[i],sizeof(float));
+APP\UserFunc.c(119): error:  #136: struct "_SYSPARAM_" has no field "MakeData2"
+                memcpy(&DReg[F_MAKEDATA200+2*i],&SP.MakeData2[i],sizeof(float));
+APP\UserFunc.c(120): error:  #136: struct "_SYSPARAM_" has no field "MakeData3"
+                memcpy(&DReg[F_MAKEDATA300+2*i],&SP.MakeData3[i],sizeof(float));
+APP\UserFunc.c(121): error:  #136: struct "_SYSPARAM_" has no field "MakeData4"
+                memcpy(&DReg[F_MAKEDATA400+2*i],&SP.MakeData4[i],sizeof(float));
+APP\UserFunc.c(122): error:  #136: struct "_SYSPARAM_" has no field "MakeData5"
+                memcpy(&DReg[F_MAKEDATA500+2*i],&SP.MakeData5[i],sizeof(float));
+APP\UserFunc.c(135): error:  #136: struct "_SYSPARAM_" has no field "TotalNum"
+        SP.TotalNum = 0;             // make total number
+APP\UserFunc.c(136): error:  #136: struct "_SYSPARAM_" has no field "MakeHour"
+        SP.MakeHour = 0;             // make time hour
+APP\UserFunc.c(137): error:  #136: struct "_SYSPARAM_" has no field "MakeMinute"
+        SP.MakeMinute = 0;           // make time minute
+APP\UserFunc.c(138): error:  #136: struct "_SYSPARAM_" has no field "MakeSecond"
+        SP.MakeSecond = 0;           // make time second
+APP\UserFunc.c(139): error:  #136: struct "_SYSPARAM_" has no field "MakeSelect"
+        SP.MakeSelect = 0;           // make mode select (0:CAD 1:Teach)
+APP\UserFunc.c(140): error:  #136: struct "_SYSPARAM_" has no field "SystemState"
+        SP.SystemState = 0;          // system state information
+APP\UserFunc.c(141): error:  #136: struct "_SYSPARAM_" has no field "ManualRate"
+        SP.ManualRate = 100;         // manual move rate (default: 100%)
+APP\UserFunc.c(142): error:  #136: struct "_SYSPARAM_" has no field "AutoRate"
+        SP.AutoRate = 100;           // auto move rate (default: 100%)
+APP\UserFunc.c(143): error:  #136: struct "_SYSPARAM_" has no field "MoveMode"
+        SP.MoveMode = 0;             // move setting inch mode (0:relative 1:absolute)
+APP\UserFunc.c: 0 warnings, 30 errors
+compiling UserCrc.c...
+".\LPC1788_DMCS.axf" - 30 Error(s), 0 Warning(s).
+Target not created

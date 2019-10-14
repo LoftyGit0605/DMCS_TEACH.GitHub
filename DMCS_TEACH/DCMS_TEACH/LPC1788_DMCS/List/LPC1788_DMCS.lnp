@@ -1,0 +1,11 @@
+--cpu Cortex-M3
+".\list\startup_lpc177x_8x.o"
+".\list\system_lpc177x_8x.o"
+".\LIB\LPC1788_DMCS.lib"
+".\list\main.o"
+".\list\public.o"
+".\list\userfunc.o"
+".\list\usercrc.o"
+--strict --scatter ".\List\LPC1788_DMCS.sct"
+
+--libpath=C:\Keil\ARM\ARMCC\lib --summary_stderr --info summarysizes -o .\List\LPC1788_DMCS.axf
